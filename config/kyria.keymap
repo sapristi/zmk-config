@@ -61,8 +61,8 @@
         &trans  &kp HASH  &kp DLLR  &kp LPAR  &kp RPAR  &kp GRV                                   &kp PLUS  &kp MINUS  &kp SLASH &kp ASTRK AC_AIGU  &trans
         &trans  &kp PRCNT &kp CIRC  &kp LBRC  &kp RBRC  &kp TILD  &trans  &trans  &trans  &trans  &kp AMPR  &kp EQUAL  &kp BSLH  &kp PERC  AC_CIRC  &trans
                                     &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans    &trans     &trans
+        >;
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-      >;
     };
       nav_layer {
       bindings = <
